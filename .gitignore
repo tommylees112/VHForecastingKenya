@@ -1,0 +1,56 @@
+*.pyc
+__pycache__
+.env
+
+# testing
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+.DS_Store
+.idea/
+
+# data
+*.csv
+*.npy
+data/*.zip*
+*.nc
+*.grib
+*.idx
+*.pkl
+ml_drought/scripts/*.png
+ml_drought/scripts/variables.txt
+data/*
+
+.ipynb_checkpoints
+
+*.out
+data/raw/*
+data/analysis/*
+data/interim/*
+data/features/*
+data/models/*
+data/gcloud_models
+Code
+ml_drought/scripts/variables*.txt
+data*/*
+switch_data_dirs.sh
+
+# pytest coverage files
+.coverage*
+
+# random python stuff
+core.python*
+
+# vscode settings
+.vscode
+# vscode options
+settings.json
+core.ipython*
+
+lightning_logs
+pyrightconfig.json
+ml_drought/ml_drought/scripts/drafts/cookies.py
